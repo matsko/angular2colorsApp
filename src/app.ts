@@ -1,5 +1,5 @@
 import {bootstrap} from 'angular2/platform/browser';
-import {FredApp} from './app/fred/cmp';
+import {MainApp} from './app/main/cmp';
 
 
-bootstrap(FredApp);
+bootstrap(MainApp);

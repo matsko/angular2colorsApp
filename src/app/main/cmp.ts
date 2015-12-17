@@ -5,11 +5,11 @@ import {ColorCmp} from '../color/cmp';
 import {ColorFormCmp} from '../color-form/cmp';
 
 @Component({
-  selector: 'fred-app',
+  selector: 'main-app',
   directives: [ColorCmp, ColorFormCmp],
-  templateUrl: 'app/fred/template.html'
+  templateUrl: 'app/main/template.html'
 })
-export class FredApp {
+export class MainApp {
   colors = [
     "red",
     "blue",
