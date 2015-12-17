@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+
+<color-form (ready)="addNewColor($event)">
+</color-form>
+
+<div *ngFor="#color of colors">
+  <color [value]="color"></color>
+</div>
